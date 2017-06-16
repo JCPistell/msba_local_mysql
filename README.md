@@ -28,4 +28,6 @@ Once the provisioning is done you can access your database with the following se
 - Username: msba
 - Password: msba2018
 
+There are two databases included - world and classicmodels.
+
 Once you are done testing you can shut down the VM with `vagrant halt` or get rid of it completely with `vagrant destroy`. If you need to bring it up again simply do `vagrant up` and you're good to go!
