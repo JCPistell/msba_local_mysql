@@ -8,6 +8,8 @@ This vagrantfile spins up and provisions a mysql server with two test databases 
 2. Install [Vagrant](https://www.vagrantup.com/)
 3. Install [Git](https://git-scm.com/) if you don't have it already. You can test by firing up a terminal and typing `git --version`. If you get something back then you're good to go.
 
+### Instructions
+
 Fire up a terminal and navigate to an appropriate parent directory, then clone this repo:
 
 ```
