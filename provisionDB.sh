@@ -17,9 +17,9 @@ echo "Done!"
 echo "Adding sample databases and creating users"
 mysql -uroot -prootpass < /vagrant/classicmodels.sql
 mysql -uroot -prootpass < /vagrant/world.sql
-mysql -uroot -prootpass -e "create user 'douglas_adams' identified by '42istheanswer';"
-mysql -uroot -prootpass -e "grant all privileges on classicmodels.* to 'douglas_adams';"
-mysql -uroot -prootpass -e "grant all privileges on world.* to 'douglas_adams';"
+mysql -uroot -prootpass -e "create user 'msba' identified by 'msba2018';"
+mysql -uroot -prootpass -e "grant all privileges on classicmodels.* to 'msba';"
+mysql -uroot -prootpass -e "grant all privileges on world.* to 'msba';"
 mysql -uroot -prootpass -e "flush privileges"
 echo "Done!"
 echo "Provisioning complete!"
